@@ -42,13 +42,7 @@ section {
  color: white;
  padding: 10px;
 }
-img {
-   grid-area: 3 / 2 / 4 / 3;
-   background-color: blue;
-   object-fit: cover;
- width: 100%
 
-}
 
 .planet-details li {
  padding: 0;
@@ -60,7 +54,8 @@ img {
   grid-area: 3 / 2 / 4 / 3;
   background-color: blue;
   object-fit: cover;
-  width: 100%;
+  height: auto;
+  width: 30%;
 }
 .planets-menu{
   padding-top: 20px;
