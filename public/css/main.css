@@ -36,6 +36,11 @@ nav a {
  margin: 0.4em;
  /* width: 60px; */
 }
+nav a:hover{
+  background-color: #193e42;
+  color: #f9e494;
+}
+
 section {
  grid-area: 2 / 2 / 3 / 4;
  background-color: black;
@@ -50,6 +55,7 @@ section {
  list-style: none;
  margin: 10px 0 0 0;
 }
+
 .planet-details img {
   grid-area: 3 / 2 / 4 / 3;
   background-color: blue;
