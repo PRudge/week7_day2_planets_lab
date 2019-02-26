@@ -33,8 +33,11 @@ PlanetInfo.prototype.outputDetails = function(planetDets){
   gravity.textContent = planetDets.gravity;
   detail.appendChild(gravity);
   const moons = document.createElement('p');
-  moons.textContent = planetDets.moons;
+  moons.textContent = `Moons: ${planetDets.moons}`;
   detail.appendChild(moons);
+  const image = document.createElement('img');
+  image.src = planetDets.image;
+  detail.appendChild(image);
   this.container.innerHTML = '';
   this.container.appendChild(detail);
 };
